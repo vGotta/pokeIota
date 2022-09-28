@@ -34,14 +34,14 @@ window.onload = async function() {
               </div>
       
               <!-- body card -->
-              <div class="row mx-0 px-0">
+              <div class="background row mx-0 px-0">
                 <div class="col" style="height: 10rem; width: 100%;">
-                  <img src="${pokedex[i]["img"]}" style="width: 12rem; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" alt="">
+                  <img src="${pokedex[i]["img"]}" style="width: 10rem; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" alt="">
                 </div>
                 <!-- content -->
                 <div class="col-12 p-2ol text-center cardGame">
                   <!-- Menu -->
-                  <nav class="my-3">
+                  <nav class="nav-border my-3">
                     <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
                       <button class="nav-link active p-1 " id="nav-about-tab${i}" data-bs-toggle="tab" data-bs-target="#nav-about${i}" type="button" role="tab" aria-controls="nav-about" aria-selected="true"> About </button>
                       <button class="nav-link p-1 m-1" id="nav-stats-tab${i}" data-bs-toggle="tab" data-bs-target="#nav-stats${i}" type="button" role="tab" aria-controls="nav-stats" aria-selected="true"> Base Stats </button>
